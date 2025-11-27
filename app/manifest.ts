@@ -2,9 +2,9 @@ import { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Yash Pandav Portfolio",
-    short_name: "Yash Pandav",
-    description: "Portfolio of Yash Pandav, AI Engineer & Full Stack Developer",
+    name: "Sichao (Sean) Liu Portfolio",
+    short_name: "Sean Liu",
+    description: "Portfolio of Sichao (Sean) Liu, Senior Software Engineer",
     start_url: "/",
     display: "standalone",
     background_color: "#000000",
