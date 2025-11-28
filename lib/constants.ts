@@ -14,8 +14,7 @@ export const PERSONAL_INFO = {
   location: "Colleyville, TX",
   email: "sichliu.us@gmail.com",
   phone: "+1 (941) 841-9504",
-  resume:
-    "https://drive.google.com/file/d/1LiJPlb8OvMAimUihFTTWkbmjFwySdy4u/view?usp=sharing",
+  resume: "/Sean_Liu_Resume.pdf",
   terminalIntro: {
     cmd: "> npm run dev",
     response:

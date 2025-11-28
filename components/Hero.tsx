@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowRight, Download, Check } from "lucide-react";
+import { ArrowRight, ExternalLink, Check } from "lucide-react";
 import { PERSONAL_INFO } from "../lib/constants";
 import { Terminal, TypingAnimation, AnimatedSpan } from "./Terminal";
 
@@ -79,8 +79,8 @@ const Hero: React.FC<HeroProps> = ({ onOpenChat }) => {
                 rel="noopener noreferrer"
                 className="px-6 py-3.5 border border-zinc-800 text-zinc-300 rounded-lg text-sm font-medium hover:bg-zinc-900 hover:text-white hover:border-zinc-700 transition-all flex items-center gap-2 backdrop-blur-sm bg-black/30"
               >
-                <Download className="h-4 w-4" />
-                Download Resume
+                <ExternalLink className="h-4 w-4" />
+                View Resume
               </a>
             </div>
           </div>
