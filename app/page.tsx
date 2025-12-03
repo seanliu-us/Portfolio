@@ -28,6 +28,9 @@ const Contact = dynamic(
 const ChatWidget = dynamic(() => import("@/components/ChatWidget"), {
   ssr: false,
 });
+const ScrollToTop = dynamic(() => import("@/components/ScrollToTop"), {
+  ssr: false,
+});
 const CustomCursor = dynamic(
   () => import("@/components/CustomCursor").then((mod) => mod.CustomCursor),
   { ssr: false }
@@ -137,6 +140,7 @@ export default function Home() {
               isOpen={isChatOpen}
               onToggle={() => setIsChatOpen(!isChatOpen)}
             />
+            <ScrollToTop />
           </div>
         </>
       )}
