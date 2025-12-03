@@ -424,7 +424,7 @@ export const SOCIALS: SocialLink[] = [
   { name: "GitHub", url: "https://github.com/seanliu", icon: "Github" },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/seanliu/",
+    url: "https://www.linkedin.com/in/seanliu-us",
     icon: "Linkedin",
   },
   { name: "Email", url: "mailto:sichliu.us@gmail.com", icon: "Mail" },
