@@ -47,7 +47,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     title: "Senior Full Stack AI Engineer",
     company: "Scale AI",
     location: "San Francisco, California",
-    period: "06/2024 - 10/2025",
+    period: "06/2024 - Present",
     responsibilities: [
       "Worked on LLMs using Reinforcement Learning from Human Feedback (RLHF), debugging and rewriting AI-generated code in Python, Java, and C++ to improve performance and meet coding standards",
       "Analyzed over 1,000 datasets using Pandas, NumPy, and Matplotlib, optimizing data processing pipelines and reducing processing time by 20%",
